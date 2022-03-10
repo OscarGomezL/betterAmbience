@@ -1,0 +1,20 @@
+*::selection {
+	background: var(--selection);
+}
+*::-webkit-scrollbar {
+	background: var(--black);
+}
+*::-webkit-scrollbar-track {
+	background: var(--pink-2);
+}
+*::-webkit-scrollbar-thumb {
+	background: var(--selection);
+}
+*::-webkit-scrollbar-thumb:hover {
+	cursor: pointer;
+	background: var(--pink-1);
+}
+*::-webkit-scrollbar-corner {
+	background-color: transparent;
+	border: 0px solid transparent;
+}
