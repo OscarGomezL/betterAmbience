@@ -1,4 +1,11 @@
 main {
 	height: 82vh;
-	background: var(--purple-red);
+	background: var(--pink-2);
+	overflow: scroll;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0 10vw;
+	align-items: center;
+	justify-content: center;
+	overflow-x: hidden;
 }

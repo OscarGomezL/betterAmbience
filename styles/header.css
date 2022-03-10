@@ -3,14 +3,16 @@ header {
 	width: 100vw;
 	display: flex;
 	align-items: center;
-	background: var(--violet);
+	background: var(--pink-1);
 }
 header img {
 	margin: 0 10px;
+	filter: sepia(40%);
+	user-select: none;
 	height: 90%;
-	border: 2px solid var(--black);
+	border: 2px solid var(--text);
 }
 .header-title {
 	font-size: 2rem;
-	color: var(--black);
+	color: var(--text);
 }
