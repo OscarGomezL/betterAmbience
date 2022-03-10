@@ -1,0 +1,16 @@
+header {
+	height: 12vh;
+	width: 100vw;
+	display: flex;
+	align-items: center;
+	background: var(--violet);
+}
+header img {
+	margin: 0 10px;
+	height: 90%;
+	border: 2px solid var(--black);
+}
+.header-title {
+	font-size: 2rem;
+	color: var(--black);
+}
