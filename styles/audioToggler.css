@@ -1,0 +1,10 @@
+.audioToggler {
+	width: 15vw;
+	height: 15vw;
+	background: var(--pink-3);
+	margin: 10px;
+	display: grid;
+	place-items: center;
+	cursor: pointer;
+	border-radius: 10px;
+}
