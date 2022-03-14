@@ -18,3 +18,27 @@
 	background-color: transparent;
 	border: 0px solid transparent;
 }
+.rainbow {
+    animation: linear forwards infinite rainbowAnimation 0.5s;
+    background-clip: padding-box;
+}
+@keyframes rainbowAnimation {
+    0% {
+        background: linear-gradient(#f007, #fc07,#ff07,#0f07,#11f7,#00f7);
+    }
+    20%{
+        background: linear-gradient(#00f7,#f007, #fc07,#ff07,#0f07,#11f7);
+    }
+    40%{
+        background: linear-gradient(#11f7,#00f7,#f007, #fc07,#ff07,#0f07);
+    }
+    60%{
+        background: linear-gradient(#0f07,#11f7,#00f7,#f007, #fc07,#ff07);
+    }
+    80%{
+        background: linear-gradient(#ff07,#0f07,#11f7,#00f7,#f007, #fc07);
+    }
+    100%{
+        background: linear-gradient(#fc07,#ff07,#0f07,#11f7,#00f7,#f007);
+    }
+}
