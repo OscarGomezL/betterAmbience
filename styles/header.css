@@ -7,11 +7,10 @@ header {
 }
 header img {
 	margin: 0 10px;
-	border-radius: 12px;
+	border-radius: 17px;
 	filter: sepia(40%);
 	user-select: none;
 	height: 90%;
-	border: 2px solid var(--text);
 }
 .header-title {
 	font-size: 2rem;
