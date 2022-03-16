@@ -1,8 +1,12 @@
 import { useState } from "react"
 import { toggleSize } from "../logic/functions"
+import { useEffect } from "react"
 
-export default function SoundRange() {
+export default function SoundRange({changeVolume}) {
 	const [range, setRange] = useState(5)
+	useEffect(() => {
+		changeVolume(range/10)
+	}, [range])
 	return (
 		<div className="sound_range">
 			<input 
