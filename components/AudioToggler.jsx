@@ -1,4 +1,4 @@
-import SoundRange from './soundRange'
+import SoundRange from './SoundRange'
 import { useState } from 'react'
 import { getIcon, toggleClass } from '../logic/functions'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
