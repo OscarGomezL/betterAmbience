@@ -1,18 +1,5 @@
 header {
-	height: 12vh;
+	height: 6vh;
 	width: 100vw;
-	display: flex;
-	align-items: center;
 	background: var(--pink-1);
-}
-header img {
-	margin: 0 10px;
-	border-radius: 17px;
-	filter: sepia(40%);
-	user-select: none;
-	height: 90%;
-}
-.header-title {
-	font-size: 2rem;
-	color: var(--text);
 }
