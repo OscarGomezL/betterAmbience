@@ -19,26 +19,26 @@
 	border: 0px solid transparent;
 }
 .rainbow {
-    animation: linear forwards infinite rainbowAnimation 0.5s;
+    animation: linear forwards infinite rainbowAnimation 0.7s;
     background-clip: padding-box;
 }
 @keyframes rainbowAnimation {
     0% {
-        background: linear-gradient(#f007, #fc07,#ff07,#0f07,#11f7,#00f7);
+        background: linear-gradient(hsl(0,40%,25%), hsl(0,40%,30%),hsl(0,40%,40%),hsl(0,40%,50%),hsl(0,40%,70%),hsl(0,40%,60%));
     }
     20%{
-        background: linear-gradient(#00f7,#f007, #fc07,#ff07,#0f07,#11f7);
+        background: linear-gradient(hsl(0,40%,60%),hsl(0,40%,25%), hsl(0,40%,30%),hsl(0,40%,40%),hsl(0,40%,50%),hsl(0,40%,70%));
     }
     40%{
-        background: linear-gradient(#11f7,#00f7,#f007, #fc07,#ff07,#0f07);
+        background: linear-gradient(hsl(0,40%,70%),hsl(0,40%,60%),hsl(0,40%,25%), hsl(0,40%,30%),hsl(0,40%,40%),hsl(0,40%,50%));
     }
     60%{
-        background: linear-gradient(#0f07,#11f7,#00f7,#f007, #fc07,#ff07);
+        background: linear-gradient(hsl(0,40%,50%),hsl(0,40%,70%),hsl(0,40%,60%),hsl(0,40%,25%), hsl(0,40%,30%),hsl(0,40%,40%));
     }
     80%{
-        background: linear-gradient(#ff07,#0f07,#11f7,#00f7,#f007, #fc07);
+        background: linear-gradient(hsl(0,40%,40%),hsl(0,40%,50%),hsl(0,40%,70%),hsl(0,40%,60%),hsl(0,40%,25%), hsl(0,40%,30%));
     }
     100%{
-        background: linear-gradient(#fc07,#ff07,#0f07,#11f7,#00f7,#f007);
+        background: linear-gradient(hsl(0,40%,30%),hsl(0,40%,40%),hsl(0,40%,50%),hsl(0,40%,70%),hsl(0,40%,60%),hsl(0,40%,25%));
     }
 }
