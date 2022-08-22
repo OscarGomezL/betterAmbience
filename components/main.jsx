@@ -7,7 +7,9 @@ export default function Main() {
 	return (
 		<main>
 			<Presets/>
-			{arr.map(num=><AudioToggler key={num} index={num}/>)}
+			<div className="main_audioToggler_container">
+				{arr.map(num=><AudioToggler key={num} index={num}/>)}
+			</div>
 		</main>
 	)
 }
