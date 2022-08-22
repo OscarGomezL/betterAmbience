@@ -1,9 +1,8 @@
-import SoundRange from './SoundRange'
+import SoundRange from './soundRange'
 import { useState } from 'react'
-import { getIcon, toggleClass } from '../logic/functions'
+import { getIcon, toggleClass, returnFileName } from '../js/functions'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import useSound from 'use-sound'
-import { returnFileName } from '../logic/functions'
 
 export default function AudioToggler({index}) {
 	const [isPlaying, setIsPlaying] = useState(true)

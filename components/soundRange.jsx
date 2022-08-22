@@ -1,5 +1,5 @@
 import { useState } from "react"
-import { toggleSize } from "../logic/functions"
+import { toggleSize } from "../js/functions"
 import { useEffect } from "react"
 
 export default function SoundRange({changeVolume}) {
