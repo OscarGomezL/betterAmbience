@@ -17,13 +17,13 @@ export default function AudioToggler({index}) {
 		<div className={`audioToggler rainbow${index}`}>
 			<div className="audioToggler-container">
 				<div 
-					className="audioToggler-icon_container"
+					className={`audioToggler-icon_container toggler_${index}`}
 					onClick={()=>{soundToggler(index)}}
 					title={returnFileName(index)}
 				>
 					<FontAwesomeIcon icon={getIcon(index-1)} className="audioToggler_icon"></FontAwesomeIcon>
 				</div>
-				<SoundRange changeVolume={setVolume}/>
+				<SoundRange changeVolume={setVolume} index={index}/>
 			</div>
 		</div>
 	)
